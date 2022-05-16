@@ -93,5 +93,5 @@ The following was completed:
 * Using Google Places API to find the first hotel for each city located within 5000 meters of those coordinates.
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
-![heatmap](VacationPy\output_data\Screenshot_Heatmap_and_Location_2021-12-20_143017.png)
+![heatmap](VacationPy\output_data\211220_1430_ScreenshotHeatmapLocation_.png)
 
