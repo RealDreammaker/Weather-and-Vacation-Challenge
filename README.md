@@ -18,11 +18,24 @@ Python script has been created to visualize the weather of 500+ cities across th
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 ### A series of scatter plots to showcase the following relationships:
-<img src="WeatherPy\output_data\fig2.png" width="40%" height="40%">
-<img src="WeatherPy\output_data\fig3.png" width="40%" height="40%">
-<img src="WeatherPy\output_data\fig1.png" width="40%" height="40%">
-<img src="WeatherPy\output_data\fig4.png" width="40%" height="40%">
-
+<table>
+  <tr>
+      <td> 
+        <img src="WeatherPy\output_data\fig2.png" width="80%" height="80%">
+      </td> 
+      <td> 
+        <img src="WeatherPy\output_data\fig3.png" width="80%" height="80%">
+      </td> 
+  </tr>
+  <tr>
+      <td> 
+        <img src="WeatherPy\output_data\fig1.png" width="80%" height="80%">
+      </td> 
+      <td> 
+        <img src="WeatherPy\output_data\fig4.png" width="80%" height="80%">
+      </td> 
+  </tr>
+</table>
 ### Linear regression on each relationship:
 <table>
   <tr>
