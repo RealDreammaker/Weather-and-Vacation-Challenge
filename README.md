@@ -18,13 +18,9 @@ Python script has been created to visualize the weather of 500+ cities across th
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 ### A series of scatter plots to showcase the following relationships:
-* Temperature (F) vs. Latitude 
 ![Temperature (F) vs. Latitude](WeatherPy\output_data\fig1.png)
-* Humidity (%) vs. Latitude
 ![Humidity (%) vs. Latitude](WeatherPy\output_data\fig2.png)
-* Cloudiness (%) vs. Latitude
 ![Cloudiness (%) vs. Latitude](WeatherPy\output_data\fig3.png)
-* Wind Speed (mph) vs. Latitude
 ![Wind Speed (mph) vs. Latitude](WeatherPy\output_data\fig4.png)
 
 ### Linear regression on each relationship:
@@ -92,7 +88,6 @@ The following was completed:
 
 * Using Google Places API to find the first hotel for each city located within 5000 meters of those coordinates.
 
-* Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
-
+Finally, the hotels are plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**:
 ![heatmap](VacationPy\output_data\211220_1430_ScreenshotHeatmapLocation_.png)
 
