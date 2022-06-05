@@ -36,6 +36,7 @@ The purpose of this project is to answer the below questions:
       </td> 
   </tr>
 </table>
+
 ### Linear regression on each relationship:
 <table>
   <tr>
