@@ -3,13 +3,13 @@
 ## Background
 
 The purpose of this project is to answer the below questions:
-* "What's the weather like as we approach the equator?" (Part I)
-* "Which cities in the world are currently best for vacation based on given weather criteria like temperature, humidity, wind speed, cloudiness?" (Part II)
-* "Given ideal city locations found in the last question, are there any hotels available for booking?" (Part II)
+* "What's the weather like as we approach the equator?" 
+* "Which cities in the world are currently best for vacation based on given weather criteria like temperature, humidity, wind speed, cloudiness?" 
+* "Given ideal city locations found in the last question, are there any hotels available for booking?"
 
-## Part I - WeatherPy
+## Weather Analysis
 
-Python script has been created to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a [simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api).
+[Python script](WeatherPy/WeatherPy.ipynb) has been created to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a [citipy library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api).
 
 ### The final notebook:
 * Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
@@ -81,15 +81,13 @@ Python script has been created to visualize the weather of 500+ cities across th
   </tr>
 </table>
 
-## Part II - VacationPy
+## Vacation
 
 This task is about working with weather data to plan future vacations. Jupyter-gmaps and the Google Places API was deployed.
 
-* **Note:** if you having trouble viewing the maps when running the notebook, try running `jupyter nbextension enable --py gmaps` in your environment and retry.
-
 The following was completed:
 
-* Create a heat map that displays the humidity for every city from Part I.
+* Create a heat map that displays the humidity for every city previously identified.
 
 * Narrow down the DataFrame to find your ideal weather condition:
 
@@ -104,3 +102,5 @@ The following was completed:
 Finally, the hotels are plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**:
 <img src="VacationPy\output_data\211220_1430_ScreenshotHeatmapLocation_.png" >
 
+For details of vacation coding, refer to [python script](VacationPy/VacationPy.ipynb)
+* **Note:** if you having trouble viewing the maps when running the notebook, try running `jupyter nbextension enable --py gmaps` in your environment and retry.
